@@ -1,4 +1,3 @@
-language: cpp
-os: linux
-script:
-        - g++ main.cpp
+CC=g++
+all:
+	$(CC) -Wfatal-errors main.cpp
